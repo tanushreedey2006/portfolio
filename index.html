@@ -1,0 +1,600 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Tanushree Dey - BCA Final Year Student & Aspiring Full Stack Developer from West Bengal, India" />
+  <meta name="keywords" content="Tanushree Dey, BCA, Web Developer, Full Stack Developer, PHP, JavaScript, Portfolio" />
+  <title>Tanushree Dey | Full Stack Developer</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo"><span class="logo-bracket"></span>Tanushree Dey<span class="logo-bracket"></span></a>
+
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#home"         class="nav-link active">Home</a></li>
+        <li><a href="#about"        class="nav-link">About</a></li>
+        <li><a href="#skills"       class="nav-link">Skills</a></li>
+        <li><a href="#projects"     class="nav-link">Projects</a></li>
+        <li><a href="#education"    class="nav-link">Education</a></li>
+        <li><a href="#achievements" class="nav-link">Activities</a></li>
+        <li><a href="#contact"      class="nav-link contact-pill">Contact</a></li>
+      </ul>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <section id="home" class="hero">
+    <canvas id="hero-canvas"></canvas>
+
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        Available for Internships &amp; Placements
+      </div>
+
+      <p class="hero-greeting">Hi there, I'm</p>
+      <h1 class="hero-name">Tanushree Dey</h1>
+
+      <div class="hero-title">
+        <span class="title-static">BCA Final-Year &nbsp;|&nbsp; </span>
+        <span class="title-typed" id="typed-text"></span><span class="typed-cursor">|</span>
+      </div>
+
+      <p class="hero-description">
+        I am a passionate developer focused on building responsive, user-friendly, and functional web
+        applications. I enjoy transforming ideas into practical digital solutions using modern web technologies.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#projects"  class="btn btn-primary"><i class="fas fa-rocket"></i> View My Work</a>
+        <a href="#"          class="btn btn-secondary" id="download-resume"><i class="fas fa-download"></i> Download Resume</a>
+        <a href="#contact"   class="btn btn-ghost"><i class="fas fa-envelope"></i> Contact Me</a>
+      </div>
+
+      <div class="hero-social">
+        <a href="https://github.com/tanushreedey2006"              target="_blank" class="social-icon" title="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/tanushree-dey2"       target="_blank" class="social-icon" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="mailto:dey.tanushree2006@gmail.com"                               class="social-icon" title="Email"><i class="fas fa-envelope"></i></a>
+        <a href="https://wa.me/918001737625"                        target="_blank" class="social-icon" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+      </div>
+    </div>
+
+    <a href="#about" class="hero-scroll-hint" aria-label="Scroll down">
+      <div class="scroll-mouse"><div class="scroll-dot"></div></div>
+      <span>Scroll Down</span>
+    </a>
+  </section>
+
+  <!-- ========== ABOUT ========== -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-header" data-reveal>
+        <span class="section-label">Get to Know Me</span>
+        <h2 class="section-title">About Me</h2>
+        <p class="section-subtitle">A passionate developer who loves clean code and great user experiences</p>
+      </div>
+
+      <div class="about-grid">
+        <!-- Image column -->
+        <div class="about-image-col" data-reveal>
+          <div class="about-img-wrapper">
+            <img src="./images/mine.jpg" alt="Tanushree Dey" class="about-photo" />
+            <div class="img-border-dec"></div>
+            <div class="img-circle-dec"></div>
+          </div>
+        </div>
+
+        <!-- Content column -->
+        <div class="about-content-col" data-reveal>
+          <h3 class="about-name">Tanushree Dey</h3>
+          <p class="about-role-tag">BCA Final-Year Student &nbsp;&middot;&nbsp; Aspiring Full Stack Developer</p>
+
+          <p class="about-bio">
+            I'm a final-year <strong>Bachelor of Computer Applications</strong> student at
+            <strong>Contai College of Learning &amp; Management Science (MAKAUT)</strong>.
+            I'm passionate about web development and love crafting functional, responsive, and
+            user-friendly digital experiences.
+          </p>
+          <p class="about-bio">
+            I enjoy working on real-world projects and constantly learning new technologies.
+            Currently preparing for software and web development placements and internships.
+            I believe in staying calm under pressure, adapting quickly, and collaborating effectively.
+          </p>
+
+          <div class="about-info-grid">
+            <div class="info-item"><i class="fas fa-map-marker-alt"></i><span>Ramnagar Medinipur, West Bengal — 721441</span></div>
+            <div class="info-item"><i class="fas fa-envelope"></i><span>dey.tanushree2006@gmail.com</span></div>
+            <div class="info-item"><i class="fas fa-graduation-cap"></i><span>BCA, MAKAUT &mdash; 2024&ndash;2027</span></div>
+            <div class="info-item"><i class="fas fa-language"></i><span>English &bull; Bengali (Native) &bull; Hindi</span></div>
+          </div>
+
+          <div class="about-stats">
+            <div class="stat-card"><span class="stat-num" data-count="5">0</span><span class="stat-label">Projects</span></div>
+            <div class="stat-card"><span class="stat-num" data-count="12">0</span><span class="stat-label">Technologies</span></div>
+            <div class="stat-card"><span class="stat-num" data-count="2">0</span><span class="stat-label">Hackathons</span></div>
+          </div>
+
+          <div class="about-cta">
+            <a href="#contact"  class="btn btn-primary">Let's Connect <i class="fas fa-arrow-right"></i></a>
+            <a href="#projects" class="btn btn-outline">See My Work</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SKILLS ========== -->
+  <section id="skills" class="section section-dark">
+    <div class="container">
+      <div class="section-header" data-reveal>
+        <span class="section-label">What I Work With</span>
+        <h2 class="section-title">Technical Skills</h2>
+        <p class="section-subtitle">Technologies and tools I use to bring ideas to life</p>
+      </div>
+
+      <div class="skills-wrapper">
+
+        <!-- Frontend -->
+        <div class="skill-cat" data-reveal>
+          <div class="skill-cat-head">
+            <div class="cat-icon"><i class="fas fa-palette"></i></div>
+            <h3>Frontend</h3>
+          </div>
+          <div class="skill-list">
+            <div class="skill-row"><img src="images/html.png" alt="HTML5" class="sk-img"><span>HTML5</span></div>
+            <div class="skill-row"><img src="images/css.png"  alt="CSS3"  class="sk-img"><span>CSS3</span></div>
+            <div class="skill-row"><img src="images/js.png"   alt="JavaScript" class="sk-img"><span>JavaScript</span></div>
+            <div class="skill-row"><img src="images/bootstrap.png" alt="Bootstrap" class="sk-img"><span>Bootstrap</span></div>
+            <div class="skill-row"><img src="images/tailcss.png"   alt="Tailwind CSS" class="sk-img"><span>Tailwind CSS</span></div>
+          </div>
+        </div>
+
+        <!-- Backend -->
+        <div class="skill-cat" data-reveal>
+          <div class="skill-cat-head">
+            <div class="cat-icon"><i class="fas fa-server"></i></div>
+            <h3>Backend</h3>
+          </div>
+          <div class="skill-list">
+            <div class="skill-row"><img src="images/php.png" alt="PHP" class="sk-img"><span>PHP</span></div>
+            <div class="skill-row"><i class="fab fa-laravel sk-ico" style="color:#FF2D20"></i><span>Laravel</span></div>
+          </div>
+        </div>
+
+        <!-- Database -->
+        <div class="skill-cat" data-reveal>
+          <div class="skill-cat-head">
+            <div class="cat-icon"><i class="fas fa-database"></i></div>
+            <h3>Database</h3>
+          </div>
+          <div class="skill-list">
+            <div class="skill-row"><img src="images/mysql.png" alt="MySQL" class="sk-img"><span>MySQL</span></div>
+            <div class="skill-row"><i class="fas fa-table sk-ico" style="color:#f59e0b"></i><span>SQL</span></div>
+          </div>
+        </div>
+
+        <!-- Tools -->
+        <div class="skill-cat" data-reveal>
+          <div class="skill-cat-head">
+            <div class="cat-icon"><i class="fas fa-wrench"></i></div>
+            <h3>Tools &amp; Platforms</h3>
+          </div>
+          <div class="skill-list">
+            <div class="skill-row"><img src="images/github.png" alt="GitHub" class="sk-img"><span>Git &amp; GitHub</span></div>
+            <div class="skill-row"><i class="fas fa-code sk-ico" style="color:#007ACC"></i><span>VS Code</span></div>
+            <div class="skill-row"><i class="fas fa-server sk-ico" style="color:#f97316"></i><span>XAMPP</span></div>
+          </div>
+        </div>
+
+        <!-- Soft Skills – full width -->
+        <div class="skill-cat skill-cat-full" data-reveal>
+          <div class="skill-cat-head">
+            <div class="cat-icon"><i class="fas fa-users"></i></div>
+            <h3>Soft Skills</h3>
+          </div>
+          <div class="soft-tags">
+            <span><i class="fas fa-comments"></i> Communication</span>
+            <span><i class="fas fa-ear-listen"></i> Active Listening</span>
+            <span><i class="fas fa-people-group"></i> Teamwork</span>
+            <span><i class="fas fa-clock"></i> Time Management</span>
+            <span><i class="fas fa-shuffle"></i> Adaptability</span>
+            <span><i class="fas fa-lightbulb"></i> Problem Solving</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PROJECTS ========== -->
+  <section id="projects" class="section">
+    <div class="container">
+      <div class="section-header" data-reveal>
+        <span class="section-label">What I've Built</span>
+        <h2 class="section-title">Featured Projects</h2>
+        <p class="section-subtitle">A selection of projects I've worked on. Each one was a unique learning experience.</p>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- Project 1: Aroma Haven (featured / wide) -->
+        <div class="proj-card proj-featured" data-reveal>
+          <div class="proj-inner">
+            <div class="proj-img-area">
+              <div class="proj-placeholder aroma-bg">
+                <i class="fas fa-mug-hot"></i>
+                <span>E-Commerce Platform</span>
+              </div>
+              <span class="proj-live-badge"><span class="live-pulse"></span>Live</span>
+            </div>
+            <div class="proj-body">
+              <p class="proj-category">PHP &bull; Full Stack</p>
+              <h3 class="proj-title">Aroma Haven</h3>
+              <p class="proj-subtitle">Coffee &amp; Fragrance E-Commerce Platform</p>
+              <p class="proj-desc">
+                A fully responsive e-commerce web application featuring user authentication, product catalog,
+                shopping cart, wishlist, checkout, table reservations, Razorpay payment integration, and a
+                comprehensive admin dashboard for managing products, users, orders, and bookings.
+              </p>
+              <ul class="proj-features">
+                <li><i class="fas fa-check-circle"></i>User Auth &amp; Admin Dashboard</li>
+                <li><i class="fas fa-check-circle"></i>Shopping Cart &amp; Wishlist</li>
+                <li><i class="fas fa-check-circle"></i>Razorpay Payment Integration</li>
+                <li><i class="fas fa-check-circle"></i>Table Booking &amp; Reservations</li>
+              </ul>
+              <div class="proj-tech">
+                <span>PHP</span><span>MySQL</span><span>JavaScript</span>
+                <span>Bootstrap</span><span>HTML5</span><span>CSS3</span>
+              </div>
+              <div class="proj-links">
+                <a href="https://aroma.freedev.app/" target="_blank" class="btn btn-primary btn-sm"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                <a href="https://github.com/tanushreedey2006" target="_blank" class="btn btn-outline btn-sm"><i class="fab fa-github"></i> GitHub</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2: Yoga Trade -->
+        <div class="proj-card" data-reveal>
+          <div class="proj-inner proj-inner-col">
+            <div class="proj-img-area proj-img-short">
+              <div class="proj-placeholder yoga-bg">
+                <i class="fas fa-person-praying"></i>
+                <span>Wellness Platform</span>
+              </div>
+              <span class="proj-live-badge"><span class="live-pulse"></span>Live</span>
+            </div>
+            <div class="proj-body">
+              <p class="proj-category">JavaScript &bull; Frontend</p>
+              <h3 class="proj-title">Yoga Trade</h3>
+              <p class="proj-subtitle">Wellness Web Application</p>
+              <p class="proj-desc">
+                A clean, responsive web application offering curated yoga routines, step-by-step poses,
+                and dynamic wellness tracking features for users of all levels.
+              </p>
+              <div class="proj-tech">
+                <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Bootstrap</span>
+              </div>
+              <div class="proj-links">
+                <a href="https://yogatrade.lovestoblog.com/" target="_blank" class="btn btn-primary btn-sm"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                <a href="https://github.com/tanushreedey2006" target="_blank" class="btn btn-outline btn-sm"><i class="fab fa-github"></i> GitHub</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3: Rock Paper Scissors -->
+        <div class="proj-card" data-reveal>
+          <div class="proj-inner proj-inner-col">
+            <div class="proj-img-area proj-img-short">
+              <div class="proj-placeholder game-bg">
+                <i class="fas fa-hand-scissors"></i>
+                <span>Browser Game</span>
+              </div>
+            </div>
+            <div class="proj-body">
+              <p class="proj-category">JavaScript &bull; Game</p>
+              <h3 class="proj-title">Rock Paper Scissors</h3>
+              <p class="proj-subtitle">Interactive Browser Game</p>
+              <p class="proj-desc">
+                An interactive browser-based game with a clean UI, dynamic game logic, score tracking,
+                and smooth animations for an engaging user experience.
+              </p>
+              <div class="proj-tech">
+                <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+              </div>
+              <div class="proj-links">
+                <a href="https://tanushreedey2006.github.io/An-Unique-Rock_Paper_Scissor_Game/" target="_blank" class="btn btn-primary btn-sm"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                <a href="https://tanushreedey2006.github.io/An-Unique-Rock_Paper_Scissor_Game/" target="_blank" class="btn btn-outline btn-sm"><i class="fab fa-github"></i> GitHub</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="projects-cta" data-reveal>
+        <p>Want to see more of my work?</p>
+        <a href="https://github.com/tanushreedey2006" target="_blank" class="btn btn-outline">
+          <i class="fab fa-github"></i> View All on GitHub
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== EDUCATION ========== -->
+  <section id="education" class="section section-dark">
+    <div class="container">
+      <div class="section-header" data-reveal>
+        <span class="section-label">My Academic Background</span>
+        <h2 class="section-title">Education</h2>
+      </div>
+
+      <div class="edu-timeline">
+
+        <div class="edu-item" data-reveal>
+          <div class="edu-marker">
+            <div class="edu-dot"><i class="fas fa-university"></i></div>
+            <div class="edu-line"></div>
+          </div>
+          <div class="edu-card">
+            <div class="edu-meta">
+              <span class="edu-badge-current">Current</span>
+              <span class="edu-year">2024 &ndash; 2027</span>
+            </div>
+            <h3>Bachelor of Computer Applications (BCA)</h3>
+            <p class="edu-inst">Contai College of Learning &amp; Management Science</p>
+            <p class="edu-sub">Maulana Abul Kalam Azad University of Technology (MAKAUT)</p>
+            <div class="sgpa-row">
+              <span class="sgpa-label">SGPA:</span>
+              <span class="sgpa-chip">Sem 1: 8.5</span>
+              <span class="sgpa-chip">Sem 2: 8.18</span>
+              <span class="sgpa-chip">Sem 3: 7.76</span>
+              <span class="sgpa-chip">Sem 4: 8.48</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="edu-item" data-reveal>
+          <div class="edu-marker">
+            <div class="edu-dot"><i class="fas fa-school"></i></div>
+            <div class="edu-line"></div>
+          </div>
+          <div class="edu-card">
+            <div class="edu-meta">
+              <span class="edu-year">2022 &ndash; 2024</span>
+            </div>
+            <h3>Higher Secondary (WBCHSE)</h3>
+            <p class="edu-inst">Ramnagar Balika Vidyalaya (H.S.)</p>
+            <div class="edu-grade">
+              <span class="grade-label">Percentage:</span>
+              <span class="grade-val">81.60%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="edu-item" data-reveal>
+          <div class="edu-marker">
+            <div class="edu-dot"><i class="fas fa-school"></i></div>
+          </div>
+          <div class="edu-card">
+            <div class="edu-meta">
+              <span class="edu-year">2021 &ndash; 2022</span>
+            </div>
+            <h3>Secondary (WBBSE)</h3>
+            <p class="edu-inst">Ramnagar Balika Vidyalaya (H.S.)</p>
+            <div class="edu-grade">
+              <span class="grade-label">Percentage:</span>
+              <span class="grade-val">64.57%</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ACHIEVEMENTS ========== -->
+  <section id="achievements" class="section">
+    <div class="container">
+      <div class="section-header" data-reveal>
+        <span class="section-label">Beyond the Classroom</span>
+        <h2 class="section-title">Achievements &amp; Activities</h2>
+        <p class="section-subtitle">Competitions and events I've participated in</p>
+      </div>
+
+      <div class="ach-grid">
+
+        <div class="ach-card" data-reveal>
+          <div class="ach-icon"><i class="fas fa-trophy"></i></div>
+          <div class="ach-body">
+            <div class="ach-meta">
+              <span class="ach-year">2025</span>
+              <span class="ach-badge">National Level</span>
+            </div>
+            <h3>Smart India Hackathon (SIH)</h3>
+            <p class="ach-org">Government of India Initiative</p>
+            <p class="ach-desc">
+              Participated in SIH 2025 with a solution concept for
+              <strong>"One-Stop Personalized Career &amp; Education Advisor"</strong>
+              &mdash; a platform designed to guide rural students toward career and educational opportunities through a personalized digital interface.
+            </p>
+            <div class="ach-tags">
+              <span>Hackathon</span><span>EdTech</span><span>Rural Development</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="ach-card" data-reveal>
+          <div class="ach-icon ach-icon-cyan"><i class="fas fa-code-branch"></i></div>
+          <div class="ach-body">
+            <div class="ach-meta">
+              <span class="ach-year">2026</span>
+              <span class="ach-badge">College Level</span>
+            </div>
+            <h3>Re-Imagine Season 2</h3>
+            <p class="ach-org">Olive Academy</p>
+            <p class="ach-desc">
+              Participated in the Re-Imagine Hackathon Season 2, working on the
+              <strong>"Building Bridges"</strong> problem statement
+              &mdash; creating accessible digital solutions to strengthen community connectivity.
+            </p>
+            <div class="ach-tags">
+              <span>Hackathon</span><span>Social Impact</span><span>Community</span>
+            </div>
+            <a href="https://cdlmsit.com/hackathon/alpha_tech/" target="_blank" class="ach-link">
+              <i class="fas fa-external-link-alt"></i> View Project
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section id="contact" class="section section-dark">
+    <div class="container">
+      <div class="section-header" data-reveal>
+        <span class="section-label">Get in Touch</span>
+        <h2 class="section-title">Contact Me</h2>
+        <p class="section-subtitle">Have an opportunity or just want to say hello? I'd love to hear from you.</p>
+      </div>
+
+      <div class="contact-grid">
+
+        <!-- Info side -->
+        <div class="contact-info-side" data-reveal>
+          <h3>Let's work together</h3>
+          <p>I'm actively looking for internship and placement opportunities. Whether you're a recruiter,
+             a fellow developer, or someone with an exciting project &mdash; feel free to reach out!</p>
+
+          <div class="contact-details">
+            <a href="mailto:dey.tanushree2006@gmail.com" class="cdt-item">
+              <div class="cdt-icon"><i class="fas fa-envelope"></i></div>
+              <div><span class="cdt-label">Email</span><span class="cdt-val">dey.tanushree2006@gmail.com</span></div>
+            </a>
+            <a href="https://www.linkedin.com/in/tanushree-dey2" target="_blank" class="cdt-item">
+              <div class="cdt-icon"><i class="fab fa-linkedin"></i></div>
+              <div><span class="cdt-label">LinkedIn</span><span class="cdt-val">linkedin.com/in/tanushree-dey2</span></div>
+            </a>
+            <a href="https://github.com/tanushreedey2006" target="_blank" class="cdt-item">
+              <div class="cdt-icon"><i class="fab fa-github"></i></div>
+              <div><span class="cdt-label">GitHub</span><span class="cdt-val">github.com/tanushreedey2006</span></div>
+            </a>
+            <div class="cdt-item">
+              <div class="cdt-icon"><i class="fas fa-map-marker-alt"></i></div>
+              <div><span class="cdt-label">Location</span><span class="cdt-val">Ramnagar Medinipur, West Bengal, India</span></div>
+            </div>
+            <a href="tel:+918001737625" class="cdt-item">
+              <div class="cdt-icon"><i class="fas fa-phone"></i></div>
+              <div><span class="cdt-label">Phone</span><span class="cdt-val">+91 8001737625</span></div>
+            </a>
+          </div>
+        </div>
+
+        <!-- Form side -->
+        <div class="contact-form-wrap" data-reveal>
+          <form class="contact-form" id="contact-form" novalidate>
+            <div class="form-row">
+              <div class="form-field">
+                <label for="f-name">Your Name</label>
+                <input type="text" id="f-name" name="name" placeholder="John Doe" required />
+                <span class="field-err" id="err-name"></span>
+              </div>
+              <div class="form-field">
+                <label for="f-email">Your Email</label>
+                <input type="email" id="f-email" name="email" placeholder="john@example.com" required />
+                <span class="field-err" id="err-email"></span>
+              </div>
+            </div>
+            <div class="form-field">
+              <label for="f-subject">Subject</label>
+              <input type="text" id="f-subject" name="subject" placeholder="Internship Opportunity / Collaboration" required />
+              <span class="field-err" id="err-subject"></span>
+            </div>
+            <div class="form-field">
+              <label for="f-message">Message</label>
+              <textarea id="f-message" name="message" rows="5" placeholder="Hi Tanushree, I'd like to discuss..." required></textarea>
+              <span class="field-err" id="err-message"></span>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full" id="submit-btn">
+              <i class="fas fa-paper-plane"></i><span>Send Message</span>
+            </button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer id="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="foot-logo"><span class="logo-bracket">&lt;</span>TD<span class="logo-bracket">/&gt;</span></div>
+          <p>Aspiring Full Stack Developer passionate about building real-world digital solutions using modern web technologies.</p>
+          <div class="foot-social">
+            <a href="https://github.com/tanushreedey2006"            target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/tanushree-dey2"     target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="mailto:dey.tanushree2006@gmail.com"                              title="Email"><i class="fas fa-envelope"></i></a>
+            <a href="https://wa.me/918001737625"                      target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+
+        <div class="foot-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#achievements">Activities</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="foot-col">
+          <h4>Contact Info</h4>
+          <p><i class="fas fa-envelope"></i> dey.tanushree2006@gmail.com</p>
+          <p><i class="fas fa-phone"></i> +91 8001737625</p>
+          <p><i class="fas fa-map-marker-alt"></i> Ramnagar Medinipur, West Bengal</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Tanushree Dey. All Rights Reserved.</p>
+        <p>Designed &amp; Developed with <i class="fas fa-heart" style="color:#e74c3c"></i> by <span>Tanushree Dey</span></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll to Top -->
+  <button class="scroll-top-btn" id="scroll-top" aria-label="Scroll to top" title="Back to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>

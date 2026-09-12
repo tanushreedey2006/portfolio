@@ -1,0 +1,78 @@
+{
+  "personalInfo": {
+    "name": "Tanushree Dey",
+    "title": "Web Developer",
+    "about": "I am a passionate and dedicated Web Developer with knowledge of front-end and back-end development. I enjoy creating responsive, user-friendly, and modern websites that provide a smooth user experience. I have worked with technologies like HTML5, CSS, JavaScript, PHP, MySQL, and Bootstrap, tailwind to build dynamic web applications and portfolio projects. I am always eager to learn new technologies and improve my development skills.My goal is to become a professional full-stack developer and build creative, efficient, and impactful digital solutions.",
+    "image": "./images/mine.jpg",
+    "address": "Ramnagar, West Bengal, India",
+    "email": "dey.tanushree@gmail.com",
+    "phone": "+91 8001737625"
+  },
+
+  "skills": [
+    "HTML5",
+    "CSS",
+    "JavaScript",
+    "PHP",
+    "MySQL",
+    "Bootstrap",
+    "TailwindCss",
+    "github",
+    "API"
+  ],
+
+  "projects": [
+    {
+      "title": "Yoga Website",
+      "description": "Transform your mind, body, and soul with our calming yoga sessions designed for all levels. From beginner-friendly poses to advanced practices, discover balance, flexibility, and inner peace in a peaceful environment guided by expert instructors.",
+      "technology": [
+        "HTML5",
+        "CSS",
+        "JavaScript",
+        "Bootstrap"
+      ],
+      "github": " https://tanushreedey2006.github.io/YogaWebsite/"
+    },
+
+    {
+      "title": "Rock-Paper-Scissor Game Website",
+      "description": "Rock Paper Scissors is a fun and interactive game where players compete against the computer by choosing rock, paper, or scissors..",
+      "technology": [
+         "HTML5",
+        "CSS",
+        "JavaScript",
+        "Bootstrap"
+      ],
+      "github": "https://tanushreedey2006.github.io/An-Unique-Rock_Paper_Scissor_Game/"
+    }    
+  ],
+
+
+
+
+  "education": [
+    {
+        "mpschool":"Ramnagar Balika Vidyalaya",
+        "mpmark":452,
+        "mppercentage":"64%"
+    },
+    {
+        "hsschool":"Ramnagar Balika Vidyalaya",
+        "hsmark":"408",
+        "hspercentage":"82%"
+    },
+    {
+      "course": "Bachelor of Computer Application",
+      "college": "Contai College of Learning & Management Science",
+      "university":"Maulana Abul Kalam Azad University of Technology",
+      "year": "2024 - 2027"
+    }
+  ],
+
+  "socialLinks": {
+    "github": "https://github.com/tanushreedey2006",
+    "linkedin": "https://www.linkedin.com/in/tanushree-dey-440163340",
+    "facebook": "https://www.facebook.com/profile.php?id=61568881590145&mibextid=kFxxJD",
+    "WhatsApp":"https://wa.me/qr/OKPNBHOHY6JAO1"
+  }
+}
